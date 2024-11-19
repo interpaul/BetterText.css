@@ -1,9 +1,0 @@
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:creator" content="<%- @site.twittername %>">
-<meta name="twitter:title" content="<%- @document.title %>">
-<meta name="twitter:description" content="<%- @document.description %>">
-<% if @document.og_image : %>
-<meta name="twitter:image" content="<%- @site.url %><%- @document.og_image %>">
-<% else : %>
-<meta name="twitter:image" content="<%- @site.url %>/img/og/og-index.png">
-<% end %>

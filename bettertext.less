@@ -1,4 +1,4 @@
-/*! bettertext.css v2.0.4 | MIT License | github.com/paulradzkov/bettertext.css */
+/*! bettertext.css v2.0.5 | MIT License | github.com/paulradzkov/bettertext.css */
 
 .bettertext-settings() {
 
@@ -30,7 +30,7 @@
     @onerem: 16px;
 
     // base font-size in ems
-    @fz-ems: unit(((round( @onerem)) / @fz), em);
+    @fz-ems: unit((@fz/ @onerem), em);
 
     // unitless line-height
     @lh: unit((@rythm / @fz));
@@ -39,7 +39,7 @@
     @m-default: unit(@lh, em);
 
     // small font-size in ems
-    @fz-small-ems:  unit(((round( @fz-small)) / @fz), em);
+    @fz-small-ems:  unit(( @fz-small / @fz), em);
 
     //headers size calculations for small screens
     @h1-fz: unit(((round( @fz * pow(@scale1, 4))) / @fz), em);
