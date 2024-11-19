@@ -3,6 +3,10 @@ bower_components/
 out/
 src/
 .git
+.circleci/
+.github/
+.editorconfig
+.gitattributes
 bower.json
 docpad.coffee
 Gruntfile.coffee
