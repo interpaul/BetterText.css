@@ -1,6 +1,6 @@
 # bettertext.css
 
-[![npm version](https://badge.fury.io/js/bettertext.css.svg)](http://badge.fury.io/js/bettertext.css) [![bower version](https://badge.fury.io/bo/bettertext.css.svg)](http://badge.fury.io/bo/bettertext.css)
+[![npm version](https://badge.fury.io/js/bettertext.css.svg)](http://badge.fury.io/js/bettertext.css)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpaulradzkov%2Fbettertext.css.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpaulradzkov%2Fbettertext.css?ref=badge_shield)
 
 Improved typography styles for naked HTML (without any classnames) and Markdown-generated content. [Demo page](http://paulradzkov.github.io/bettertext.css/)
