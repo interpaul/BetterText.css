@@ -18,10 +18,10 @@
   "dependencies": {},
   "main": "bettertext.less",
   "devDependencies": {
-    "grunt": "^0.4.5",
+    "grunt": "^1.6.1",
     "grunt-contrib-cssmin": "^1.0.2",
     "grunt-contrib-less": "^1.1.0",
-    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-notify": "^0.4.3",
     "time-grunt": "^1.3.0"
   }
